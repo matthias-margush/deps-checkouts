@@ -1,0 +1,2 @@
+{:deps {org.clojure/tools.deps.alpha {:mvn/version "RELEASE"}}
+ :paths ["src"]}
