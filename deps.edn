@@ -1,2 +1,2 @@
-{:deps {org.clojure/tools.deps.alpha {:mvn/version "RELEASE"}}
- :paths ["src"]}
+{:deps {org.clojure/tools.deps.alpha {:mvn/version "0.6.480"}}
+ :paths ["src", "scratch"]}
