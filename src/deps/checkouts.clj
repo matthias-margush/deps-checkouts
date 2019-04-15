@@ -49,3 +49,7 @@
   (when (and ((set args) "--link") ((set args) "--all"))
     (let [deps (deps-reader/slurp-deps (io/file "deps.edn"))]
       (link-local-deps! "deps" deps nil))))
+
+(comment
+  (link-local-deps! "deps" nil  nil)
+  (-main))
